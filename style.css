@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+header {
+    background-color: hsl(193, 100%, 96%);
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 1.5em 0;
+}
+
+.header-logo {
+    width: 30%;
+    height: 30%;
+}
+
+.header-btn {
+    width: 30%;
+    height: 28px;
+    border-radius: 60px;
+    border: none;
+    background-color: white;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    box-shadow: 0px 2px 5px 1px rgb(235, 232, 232);
+    margin-top: -6px;
+}
+
+.section-one {
+    background-color: hsl(193, 100%, 96%);
+    background-image: url('images/bg-hero-mobile.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+
+.illustration {
+    width: 90%;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 26px;
+    color: hsl(192, 100%, 9%);
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    color: hsl(192, 100%, 9%);
+    margin-top: 1em;
+    line-height: 25px;
+}
+
+.btn-one {
+    width: 70%;
+    height: 40px;
+    border-radius: 60px;
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    box-shadow: 0px 2px 5px 4px rgb(235, 232, 232);
+    color: white;
+    font-weight: 700;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+.cards {
+    padding: 3.5em 2em;
+    margin-bottom: 2.5em;
+    width: 88vw;
+    border-radius: 20px;
+    box-shadow: 0px 2px 5px 2px rgb(240, 238, 238);
+}
+
+h2 {
+    color: hsl(192, 100%, 9%);
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 2.5em;
+}
+
+.section-two p {
+    color:hsl(208, 11%, 55%);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.section-two {
+    margin-top: 70px;
+    margin-bottom: -45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card_four {
+    padding-top: 2.5em;
+    padding-bottom: 0;
+    transform: translate(0rem, 7rem);
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 2px 3px 2px rgb(240, 238, 238);
+    margin-right: auto;
+    margin-left: auto;
+    width: 92vw;
+}
+
+#card_four h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+ 
+footer {
+    text-align: left;
+    background-color: hsl(192, 100%, 9%);
+    padding-top: 10em;
+    padding-bottom: 3em;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.footer-logo {
+margin-left: -40px;
+}
+
+.contact-container {
+    margin-top: 35px;
+}
+
+.contact {
+    margin-bottom: 20px;
+    opacity: 80%;
+}
+
+.contact img {
+    margin-bottom: -3px;
+    margin-left: -40px;
+}
+
+.contact p {
+    margin-top: -20px;
+    font-size: 16px;
+    color: hsl(0, 0%, 100%);
+}
+
+.footer-links {
+    font-size: 16px;
+    margin-left: -40px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+ul {
+    list-style: none;
+    line-height: 40px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    opacity: 80%;
+}
+
+.social-links {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 20px;
+}
+
+i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 7px;
+}
+
+.copyright, .attribution {
+    font-size: 12px;
+    color: hsl(0, 0%, 100%);
+    opacity: 80%;
+    text-align: center;
+    line-height: 16px;
+}
+
+.attribution a {
+    color: hsl(0, 0%, 100%);
+}
+
+@media screen and (min-width: 1000px) {
+    header {
+        padding: 2.5em 3em 0;
+    }
+
+    .header-logo {
+        width: 13%;
+    }
+
+    .header-btn {
+        width: 10%;
+    }
+
+    .section-one {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 3em;
+        padding-left: 3em;
+    }
+
+    .section-one .illustration {
+        width: 40%;
+    }
+
+    .div-one {
+        text-align: left;
+    }
+
+    .section-one p {
+        width: 70%;
+    }
+
+    .btn-one {
+        width: 25%;
+    }
+
+    .section-two {
+        margin-top: 90px;
+    }
+
+    .section-two .illustration {
+        width: 30%;
+        padding-left: 3em;
+    }
+
+    .section-two .cards {
+        display: flex;
+        justify-content: space;
+        width: 85vw;
+    }
+
+    .illustration-text {
+        text-align: left;
+        margin-left: 120px;
+        width: 40%;
+    }
+
+    #card_four {
+        width: 35%;
+    }
+
+    #card_four button {
+        width: 50%;
+    }
+
+    footer {
+        padding-left: 6em;
+    }
+
+
+
+
+
+
+
+
+
+
+}
